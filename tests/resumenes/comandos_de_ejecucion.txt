@@ -1,0 +1,68 @@
+# matcher faces tests:
+# Para face recognition:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_face_recognition_model_matcher_images
+
+#Para vgg:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_vgg_model_matcher_images
+
+#Para FaceNet:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_facenet_model_matcher_images
+
+#Para FaceNet512:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_facenet512_model_matcher_images
+
+#Para Openface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_openface_model_matcher_images
+
+#Para deepface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_deepface_model_matcher_images
+
+#Para DeepID:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_deepid_model_matcher_images
+
+#Para Arcface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_arcface_model_matcher_images
+
+#Para dlib:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_dlib_model_matcher_images
+
+#Para sface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_sface_model_matcher_images
+
+#Para ghostfacenet:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_ghostfacenet_model_matcher_images
+
+
+#Comandos para modelos diferentes:
+# Para face recognition:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_face_recognition_model_matcher_images_different
+
+#Para vgg:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_vgg_model_matcher_images_different
+
+#Para FaceNet:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_facenet_model_matcher_images_different
+
+#Para FaceNet512:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_facenet512_model_matcher_images_different
+
+#Para Openface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_openface_model_matcher_images_different
+
+#Para deepface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_deepface_model_matcher_images_different
+
+#Para DeepID:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_deepid_model_matcher_images_different
+
+#Para Arcface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_arcface_model_matcher_images_different
+
+#Para dlib:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_dlib_model_matcher_images_different
+
+#Para sface:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_sface_model_matcher_images_different
+
+#Para ghostfacenet:
+python -m unittest -f tests.face_matcher_test.TestFaceMatcher.test_face_matcher_ghostfacenet_model_matcher_images_different
